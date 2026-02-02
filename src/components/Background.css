@@ -1,0 +1,42 @@
+.background {
+  position: fixed;
+  inset: 0;
+  background: black !important;
+  overflow: hidden;
+  z-index: -2; 
+}
+
+.background-spheres {
+  background: black;
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.sphere {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  filter: blur(45px);
+  opacity: 0.5;
+  pointer-events: none;
+  animation: float 12s infinite ease-in-out;
+}
+
+.sphere1 { background: rgb(243, 80, 255); top: 10%; left: 5%; }
+.sphere2 { background: rgb(123, 0, 255); bottom: 15%; right: 10%; }
+.sphere3 { background: rgb(255, 100, 159); top: 50%; left: 20%; }
+.sphere4 { background: rgb(240, 80, 255); bottom: 40%; left: 70%; }
+.sphere5 { background: rgb(79, 70, 255); top: 15%; right: 30%; }
+.sphere6 { background: rgb(100, 141, 255); bottom: 10%; left: 40%; }
+
+/* spheres moving */
+@keyframes float {
+  0% { transform: translate(0, 0) scale(1); }
+  25% { transform: translate(80px, -60px) scale(1.1); }
+  50% { transform: translate(-60px, 60px) scale(0.95); }
+  75% { transform: translate(100px, 40px) scale(1.05); }
+  100% { transform: translate(-80px, -40px) scale(1); }
+}

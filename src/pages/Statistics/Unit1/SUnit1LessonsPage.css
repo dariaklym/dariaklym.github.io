@@ -1,0 +1,29 @@
+.unit-container {
+  padding: 40px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.units-title {
+  font-size: 2.8rem;
+  margin-bottom: 100px;
+}
+
+.unit-box {
+  background: rgba(32, 32, 32, 0.55);
+  backdrop-filter: blur(10px);
+  padding: 15px 20px;
+  margin: 30px auto;
+  width: fit-content;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  color: #cbc3ff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.unit-box:hover {
+  transform: scale(1.03);
+  color: rgb(81, 0, 255);
+}
+

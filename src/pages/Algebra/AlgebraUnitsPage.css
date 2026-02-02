@@ -1,0 +1,38 @@
+
+.units-container {
+  min-height: 100vh;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.units-title-box {
+  width: 50%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.units-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  width: 70%;
+  justify-items: center;
+}
+
+.unit-card {
+  width: 100%;
+  padding: 30px 0;
+  text-align: center;
+  color: rgb(234, 209, 255);
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.unit-card:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+  color: rgb(255, 0, 76);
+}
+

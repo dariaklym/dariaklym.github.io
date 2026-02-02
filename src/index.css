@@ -1,0 +1,11 @@
+/* removing default body margin */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body, h1, h2, h3, p, li {
+  color: white;
+  font-family: nunino;
+}

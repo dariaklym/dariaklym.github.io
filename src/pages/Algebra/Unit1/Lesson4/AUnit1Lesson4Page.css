@@ -1,0 +1,61 @@
+.lesson-container {
+  padding: 40px;
+  text-align: left;
+  color: white; 
+}
+
+.lesson-title {
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.lesson-box {
+  background: rgba(29, 29, 29, 0.55);
+  padding: 20px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  color: white;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+/* Quiz button */
+.quiz-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: #5a4bff;
+  padding: 15px 25px;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.Home-btn {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 20px;
+  margin-left: 30px;
+  padding: 18px 40px;
+  border: none;
+  border-radius: 45px;
+  background: rgba(32, 32, 32, 0.55);
+  backdrop-filter: blur(10px);
+  width: fit-content;
+  font-size: 1.3rem;
+  color: #ff9dd3;
+  cursor: pointer;
+  transition: 0.2s;
+  font-family: nunito;
+}
+
+.Home-btn:hover {
+  transform: scale(1.1);
+  color: rgb(255, 0, 111);
+}

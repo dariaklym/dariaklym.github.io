@@ -1,0 +1,47 @@
+.dtest-container {
+  min-height: 100vh;
+  color: white;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dtest-title {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+.dtest-progress {
+  opacity: 0.7;
+  margin-bottom: 30px;
+}
+
+.dtest-question-box {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 30px;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.dtest-question {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.dtest-choice {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 14px;
+  background: #3a2a5f;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.dtest-choice:hover {
+  background: #5b3ea8;
+}
