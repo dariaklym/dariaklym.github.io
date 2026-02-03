@@ -7,7 +7,7 @@ import GeometryUnitsPage from "./pages/Geometry/GeometryUnitsPage";
 import StatisticsUnitsPage from "./pages/Statistics/StatisticsUnitsPage";
 import DTestPage from "./pages/diagnostic/DTestPage";
 import DTestResults from "./pages/diagnostic/DTestResults";
-import GamesPage from "./pages/Games/GamesPage";
+import GamesPage from "./pages/games/GamesPage";
 
 // Games
 import GameAddSub from "./pages/games/GameAddSub";
